@@ -1,0 +1,38 @@
+body {
+  background-image: url(../img/background2.jpg);
+}
+
+h1 {
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.social-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 250px;
+}
+
+.social-child div {
+  padding: 10px;
+  background: #fff;
+  border-radius: 9999px;
+  transition: transform;
+  transition-duration: 0.2s;
+  will-change: transform;
+}
+
+.social-child div:hover {
+  transform: scale(1.1);
+}
+
+.social-child i {
+  color: black;
+}
